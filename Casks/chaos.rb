@@ -1,8 +1,8 @@
 cask "chaos" do
   arch arm: "arm64"
 
-  version "1.0.0-preview.1"
-  sha256 arm: "5df8a218cf3ce1119346c8e065cecccfac258ba6c6ea3cb952c0b4eddbd4045a"
+  version "1.0.0-preview.2"
+  sha256 arm: "5a3d9dbc4fd9e593d22f1f6f0502256f0dcdb53002c300506f9c10a4c4268f5d"
 
   url "https://github.com/michaelmjhhhh/Chaos/releases/download/v#{version}/Chaos-v#{version}-#{arch}.zip"
   name "Chaos"
