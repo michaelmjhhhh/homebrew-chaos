@@ -4,11 +4,11 @@ cask "chaos" do
 
   url "https://github.com/michaelmjhhhh/Chaos/releases/download/v#{version}/Chaos.dmg"
   name "Chaos"
-  desc "AI-powered macOS screenshot organizer"
+  desc "AI-powered screenshot organizer"
   homepage "https://github.com/michaelmjhhhh/Chaos"
 
   depends_on arch:  :arm64
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Chaos.app"
 
